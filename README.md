@@ -68,7 +68,12 @@
             <h2>Menu</h2>
             <p>Vuodesta 1996 asti leivottuja suuhunsulavia 
             herkkuja
-                Tutustu laajaan valikoimaamme leivonnaisia, kahveja ja teetä.</p>
+                Kulmanpuusti 4,30€ 
+                Kahvi 1.50€
+                Limut 2.5€
+                Muut leivokset 4€
+                Edellisen päivän tuotteet -50%
+                Lämpimät ruoat seuraavalla sivulla! </p>
         </section>
         <section id="about">
             <h2>Tietoa meistä</h2>
