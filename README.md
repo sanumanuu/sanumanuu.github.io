@@ -118,9 +118,9 @@
             <li>Riihimäellä</li>
         </ul>
     </main>
-
+        <footer>
         <p>&copy; 2025 Kulmakonditoria</p>
-   
+        </footer> 
     <script>
         function toggleMenu() {
             const menu = document.getElementById("menuContent");
