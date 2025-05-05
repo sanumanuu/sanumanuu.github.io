@@ -104,7 +104,7 @@
         </div>
     </header>
     <main>
-                  <img src="https://static.wixstatic.com/media/145316_30b59f53c13741189acc4c3561870cdd~mv2.jpg" alt="Kulmakonditoria" style="max-width:70%; height:auto;">
+             
         <h2>Tietoa Kulmakonditoriasta</h2>
         <p><span class="highlight">Ravintola Kulma</span>, kotoisammin <span class="highlight">Kulmis</span>, on kotimainen perheyritys, joka on toiminut vuodesta 1996.</p>
         <p>Leivomme ja leikkaamme, pursotamme ja piperrämme, kokkaamme ja vatkaamme, loihdimme soossit, marinadit ja maukkaat lisukkeet kutkutellaksemme kaikkien herkkusuiden makunystyröitä.</p>
@@ -119,6 +119,7 @@
             <li>Riihimäellä</li>
         </ul>
     </main>
+         <img src="https://static.wixstatic.com/media/145316_30b59f53c13741189acc4c3561870cdd~mv2.jpg" alt="Kulmakonditoria" style="max-width:70%; height:auto;">
         <footer>
         <p>&copy; 2025 Kulmakonditoria</p>
         </footer> 
