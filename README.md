@@ -1,4 +1,3 @@
-
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
@@ -7,9 +6,10 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #f5f5dce6; /* Vaalea beige tausta */
             color: #4b2e2e; /* Tumma ruskea teksti */
+            line-height: 1.6; /* Parantaa luettavuutta */
         }
 
         header {
@@ -23,7 +23,7 @@
         .menu-button {
             position: absolute;
             top: 10px;
-            left: 20px; /* Siirretty vasempaan yläkulmaan */
+            left: 20px;
             width: 40px;
             height: 40px;
             background-color: #4b2e2e; /* Tumma ruskea */
@@ -41,24 +41,24 @@
             display: none; /* Piilotetaan oletuksena */
             position: absolute;
             top: 60px;
-            left: 20px; /* Siirretty vasemman yläkulman alle */
-            background-color: #fff;
+            left: 20px;
+            background-color: #4d3737; /* Tumma ruskea */
             border: 1px solid #4b2e2e;
             border-radius: 5px;
+            padding: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             z-index: 1000;
         }
 
         .menu-content a {
             display: block;
-            padding: 10px 15px;
-            color: #4b2e2e;
+            color: #fff;
             text-decoration: none;
-            font-weight: bold;
+            padding: 5px 0;
         }
 
         .menu-content a:hover {
-            background-color: #f5f5dce6;
+            background-color: #cca31c; /* Kultainen väri */
         }
 
         main {
@@ -66,13 +66,28 @@
             text-align: center;
         }
 
+        main h2 {
+            color: #cca31c; /* Kultainen väri */
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        main p {
+            margin: 10px 0;
+        }
+
+        main .highlight {
+            font-weight: bold;
+            color: #4b2e2e; /* Tumma ruskea */
+        }
+
         footer {
             background-color: #423131; /* Tumma ruskea */
             color: #fff;
-            text-align: center; /* Keskittää tekstin vaakasuunnassa */
+            text-align: center;
             padding: 10px;
-            width: 100%; /* Kattaa koko sivun leveyden */
-            position: relative; /* Varmistaa, että footer pysyy alareunassa */
+            width: 100%;
+            position: relative;
             bottom: 0;
         }
     </style>
@@ -89,34 +104,23 @@
         </div>
     </header>
     <main>
-        <section id="menu">
-            <h2>Menu</h2>
-            <p>Vuodesta 1996 asti leivottuja suuhunsulavia 
-            herkkuja</p> 
-                <p>Kulmanpuusti 4,30€</p> 
-                <p>Kahvi 1.50€</p>
-                <p>Limut 2.5€</p>
-                <p>Muut leivokset 4€</p>
-                <p>Edellisen päivän tuotteet -50%</p>
-                <p>Lämpimät ruoat seuraavalla sivulla!</p>
-        </section>
-        <section id="about">
-            <h2>Tietoa meistä</h2>
-            <p>Kulmakonditoria on perinteinen kahvila, joka tarjoaa laadukkaita tuotteita ja viihtyisän ilmapiirin.</p>
-            Olemme halunneet panostaa erityisruokavalioihin ja monen ruoan voikin muokata oman makunsa mukaan.
-
-            <p>Meiltä löydät myös gluteenittomia ja vegaanisia vaihtoehtoja.</p>
-            <img src="https://static.wixstatic.com/media/145316_30b59f53c13741189acc4c3561870cdd~mv2.jpg/v1/fill/w_1508,h_1194,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/145316_30b59f53c13741189acc4c3561870cdd~mv2.jpg" alt="Kulmakonditoria" style="max-width:70%; height:auto;">
-        </section>
-        <section id="contact">
-            <h2>Yhteystiedot</h2>
-            <p>Osoite: Kauppakaari 8, 04200 Kerava</p>
-            <p>Puhelin: 010 123 4567</p>
-        </section>
+        <h2>Tietoa Kulmakonditoriasta</h2>
+        <p><span class="highlight">Ravintola Kulma</span>, kotoisammin <span class="highlight">Kulmis</span>, on kotimainen perheyritys, joka on toiminut vuodesta 1996.</p>
+        <p>Leivomme ja leikkaamme, pursotamme ja piperrämme, kokkaamme ja vatkaamme, loihdimme soossit, marinadit ja maukkaat lisukkeet kutkutellaksemme kaikkien herkkusuiden makunystyröitä.</p>
+        <p>Kaiken kukkuraksi kehitämme koko ajan uusia makuja.</p>
+        <h2>Toimipisteemme</h2>
+        <p>Toimipisteitä meillä on:</p>
+        <ul style="list-style-type: square; text-align: left; display: inline-block;">
+            <li>Järvenpäässä</li>
+            <li>Hyvinkäällä Kauppakeskus Willassa</li>
+            <li>Vantaalla Kauppakeskus Tikkurissa ja Kauppakeskus Myyrmannissa</li>
+            <li>Keravalla</li>
+            <li>Riihimäellä</li>
+        </ul>
     </main>
-    
+    <footer>
         <p>&copy; 2025 Kulmakonditoria</p>
-    
+    </footer>
     <script>
         function toggleMenu() {
             const menu = document.getElementById("menuContent");
